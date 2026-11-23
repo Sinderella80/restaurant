@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rama Alhlak</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+  <header class="navbar">
+    <a href="#top" class="logo">Rama Alhlak</a>
+    <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#chefs">Chefs</a>
+      <a href="#reservation">Reservation</a>
+      <a href="#location">Location</a>
+    </nav>
+  </header>
+
+  <!-- Section 1: Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Gusto Bistro</h1>
+      <p>Best food &amp; drinks in town</p>
+      <p class="hero-sub">Damascus, Syria</p>
+      <a href="#reservation" class="btn">Make a Reservation</a>
+      <a href="#menu" class="btn btn-outline">View Menu</a>
+    </div>
+  </section>
+  <!-- Section 2: About -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p> Gusto Bistro Serves Delicious Burgers, Pasta, Pizza, And Fresh Juices-MADE Fresh, Served Fast. Good Food, Good Drinks, Good Times.</p>
+    <div class="stats">
+      <div><strong>12+</strong><span>Dishes &amp; drinks</span></div>
+      <div><strong>3</strong><span>Expert chefs</span></div>
+      <div><strong>7</strong><span>Days a week</span></div>
+      <div><strong>100%</strong><span>Fresh ingredients</span></div>
+    </div>
+  </section>
+  <!-- Section 3: Menu -->
+  <section class="menu" id="menu">
+    <h2>Our Menu</h2>
+    <p class="section-hint">Tap any dish to see its ingredients and price</p>
+    <div class="filters">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="food">Food</button>
+      <button class="filter" data-filter="drinks">Drinks</button>
+    </div>
+    <div class="menu-items">
+      <div class="card dish" data-cat="food" data-price="65000" data-desc="Stone-baked pizza with a crisp edge, melted mozzarella and a generous mix of toppings." data-ingredients="Pizza dough, Tomato sauce, Mozzarella, Pepperoni, Mushrooms, Black olives, Green pepper, Oregano" tabindex="0" role="button">
+        <img src="assets/images/34f48f5c56c938642b80b0555e5adf82.jpg" alt="Pizza" />
+        <h3>Delicious Pizza</h3>
+<span class="price-tag">Details &amp; price</span>
+      </div>
+      <div class="card dish" data-cat="food" data-price="55000" data-desc="Thick grilled beef patty with melted cheese, fresh veggies and a toasted brioche bun." data-ingredients="Beef patty, Cheddar, Brioche bun, Lettuce, Tomato, Pickles, House sauce" tabindex="0" role="button">
+        <img src="assets/images/efd1ab4b55f460cd93a174e139a0da96.jpg" alt="Burger" />
+        <h3>Juicy Burger</h3>
+<span class="price-tag">Details &amp; price</span>
+      </div>
+      <div class="card dish" data-cat="food" data-price="50000" data-desc="Spaghetti in a slow-cooked tomato sauce, finished with fresh basil and parmesan." data-ingredients="Spaghetti, Tomato sauce, Garlic, Olive oil, Fresh basil, Parmesan" tabindex="0" role="button">
+        <img src="assets/images/684ca1498560c84097bebc3805da551b.jpg" alt="Pasta" />
+        <h3>Italian Pasta</h3>
+<span class="price-tag">Details &amp; price</span>
+      </div>
+<div class="card dish" data-cat="food" data-price="120000" data-desc="Tender grilled beef steak with herbs, served with roasted peppers and mushrooms." data-ingredients="Beef steak, Rosemary, Garlic, Butter, Mushrooms, Roasted peppers, Pomegranate" tabindex="0" role="button">
+        <img src="assets/images/meat.jpg" alt="meat" />
+        <h3>Delicious Pizza</h3>
+<span class="price-tag">Details &amp; price</span>
+      </div>
+  <div class="card dish" data-cat="drinks" data-price="18000" data-desc="Smooth espresso with steamed milk and a light layer of foam." data-ingredients="Espresso, Steamed milk, Milk foam" tabindex="0" role="button">
+        <img src="assets/images/cafe-latte.jpg" alt="cafe" />
+        <h3>Coffe Latte</h3>
+<span class="price-tag">Details &amp; price</span>
+      </div>
+        <div class="card dish" data-cat="drinks" data-price="15000" data-desc="Freshly squeezed lemon juice, cold and refreshing." data-ingredients="Fresh lemon, Mint, Sugar, Ice, Water" tabindex="0" role="button">
+        <img src="assets/images/lemon.jpg" alt="lemon" />
+        <h3>Lemon Fresh</h3>
+<span class="price-tag">Details &amp; price</span>
+      </div>
+      <div class="card dish" data-cat="drinks" data-price="16000" data-desc="100% fresh-pressed orange juice, served chilled." data-ingredients="Fresh oranges, Ice" tabindex="0" role="button">
+        <img src="assets/images/drink orang.jpg" alt="Orang" />
+        <h3>Orange Fresh</h3>
+<span class="price-tag">Details &amp; price</span>
+      </div>
+      <div class="card dish" data-cat="drinks" data-price="12000" data-desc="Strong, aromatic black coffee brewed fresh to order." data-ingredients="Roasted coffee beans, Water, Cardamom (optional)" tabindex="0" role="button">
+        <img src="assets/images/coffe.jpg" alt="coffe" />
+        <h3>Black Coffe</h3>
+<span class="price-tag">Details &amp; price</span>
+      </div>
+       <div class="card dish" data-cat="food" data-price="70000" data-desc="Layers of pasta, rich meat sauce and creamy cheese, baked until golden." data-ingredients="Lasagna sheets, Minced beef, Tomato sauce, Béchamel, Mozzarella, Parmesan, Basil" tabindex="0" role="button">
+        <img src="assets/images/lazania.jpg" alt="lazanea" />
+        <h3>Italian Lazania</h3>
+<span class="price-tag">Details &amp; price</span>
+      </div>
+        <div class="card dish" data-cat="food" data-price="85000" data-desc="Fragrant slow-cooked rice with tender meat and aromatic spices." data-ingredients="Basmati rice, Lamb or chicken, Cardamom, Cloves, Cinnamon, Dried lime, Onion, Garlic" tabindex="0" role="button">
+        <img src="assets/images/mande.jpg" alt="mande" />
+        <h3>Mande-Rice</h3>
+<span class="price-tag">Details &amp; price</span>
+      </div>
+      <div class="card dish" data-cat="food" data-price="90000" data-desc="Skewers of marinated grilled meat, served with fresh herbs and vegetables." data-ingredients="Minced beef, Lamb fat, Onion, Parsley, Mushrooms, Baharat spice mix, Flatbread" tabindex="0" role="button">
+        <img src="assets/images/kabab.jpg" alt="kabab" />
+        <h3> Meat Kabab</h3>
+<span class="price-tag">Details &amp; price</span>
+      </div>
+      <div class="card dish" data-cat="food" data-price="60000" data-desc="Tender grape leaves rolled around spiced rice, cooked in lemon and olive oil." data-ingredients="Grape leaves, Rice, Tomato, Parsley, Mint, Lemon juice, Olive oil, Pomegranate molasses" tabindex="0" role="button">
+        <img src="assets/images/warak enab.jpg" alt="warak" />
+        <h3>Warak Enab </h3>
+<span class="price-tag">Details &amp; price</span>
+      </div>
+        </div>
+</section>
+  <!-- Section 4: Chefs -->
+  <section class="chefs" id="chefs">
+    <h2>Our Chefs</h2>
+    <div class="chef-list">
+      <div class="card">
+        <img src="assets/images/ali.jpg" alt="Chef1" />
+        <h3>Chef ali</h3>
+      </div>
+      <div class="card">
+        <img src="assets/images/marwan.jpg" alt="Chef2" />
+        <h3>Chef marwan</h3>
+      </div>
+      <div class="card">
+        <img src="assets/images/joy.jpg" alt="Chef3" />
+        <h3>Chef joy</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: Reservation -->
+  <section class="reservation" id="reservation">
+    <h2>Reserve a Table</h2>
+    <p class="section-hint">Book your table at Rama Alhlak, Damascus</p>
+    <form id="reservation-form" class="res-form" novalidate>
+      <div class="field"><label for="r-name">Full name</label><input id="r-name" name="name" type="text" required /></div>
+      <div class="field"><label for="r-phone">Phone</label><input id="r-phone" name="phone" type="tel" placeholder="+963 ..." required /></div>
+      <div class="field"><label for="r-date">Date</label><input id="r-date" name="date" type="date" required /></div>
+      <div class="field"><label for="r-time">Time</label>
+        <select id="r-time" name="time" required><option value="">Select time</option></select></div>
+      <div class="field"><label for="r-guests">Guests</label>
+        <select id="r-guests" name="guests" required></select></div>
+      <div class="field"><label for="r-area">Seating</label>
+        <select id="r-area" name="area"><option>Indoor</option><option>Outdoor / Terrace</option><option>Family section</option><option>VIP room</option></select></div>
+      <div class="field full"><label for="r-notes">Special requests</label><textarea id="r-notes" name="notes" rows="3" placeholder="Birthday, allergies, high chair..."></textarea></div>
+      <p class="form-error" id="res-error" role="alert"></p>
+      <button type="submit" class="btn full">Confirm Reservation</button>
+    </form>
+    <div class="res-success" id="res-success" hidden>
+      <div class="check">&#10003;</div>
+      <h3>Reservation received!</h3>
+      <p id="res-summary"></p>
+      <p class="small">Booking reference: <strong id="res-ref"></strong></p>
+      <button type="button" class="btn" id="res-new">Make another reservation</button>
+    </div>
+  </section>
+
+  <!-- Section 6: Location -->
+  <section class="location" id="location">
+    <h2>Find Us</h2>
+    <p class="section-hint">Damascus, Syria</p>
+    <div class="loc-grid">
+      <div class="loc-info">
+        <div class="info-item"><span class="ico">&#128205;</span><div><h4>Address</h4><p>Rama Alhlak Restaurant<br>Damascus, Syria</p></div></div>
+        <div class="info-item"><span class="ico">&#128222;</span><div><h4>Phone</h4><p>+963 11 000 0000</p></div></div>
+        <div class="info-item"><span class="ico">&#128339;</span><div><h4>Opening hours</h4>
+          <table class="hours">
+            <tr><td>Saturday - Thursday</td><td>12:00 PM - 12:00 AM</td></tr>
+            <tr><td>Friday</td><td>1:00 PM - 1:00 AM</td></tr>
+          </table></div></div>
+        <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Damascus%2C%20Syria" target="_blank" rel="noopener">Get Directions</a>
+      </div>
+      <div class="loc-map">
+        <iframe title="Map of Damascus, Syria" loading="lazy"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=36.2400%2C33.4900%2C36.3400%2C33.5400&amp;layer=mapnik&amp;marker=33.5138%2C36.2765"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dish details modal -->
+  <div class="modal" id="dish-modal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="m-title">
+      <button class="modal-close" id="m-close" aria-label="Close">&times;</button>
+      <img id="m-img" src="" alt="" />
+      <div class="modal-body">
+        <span class="m-cat" id="m-cat"></span>
+        <h3 id="m-title"></h3>
+        <p id="m-desc"></p>
+        <h4>Ingredients</h4>
+        <ul id="m-ing" class="ing-list"></ul>
+        <div class="m-footer">
+          <div class="m-price" id="m-price"></div>
+          <a href="#reservation" class="btn" id="m-reserve">Reserve a Table</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Rama Alhlak. All rights reserved.</p>
+    <p class="foot-sub">Damascus, Syria</p>
+  </footer>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
